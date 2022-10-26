@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color:lightblue;
+}
+
+
+@font-face {
+    font-family: Battling;
+    src: url(Battling\ \(2\).otf);
+  }
+
+
+.circle{
+    background-color:darkblue;
+    border-radius: 50%;
+    
+    height: 100px;
+    width: 100px;
+
+   
+    position: fixed;
+}
+
+.one{
+    left:80vw;
+    bottom: 10vh;
+}
+
+.two{
+    top: 10vh;
+    left: 80vw;
+}
+
+
+main{
+   
+
+}
+
+h1{
+    
+    font-size: 5vw;
+    font-family: Battling;
+    text-align: center;
+}
+
+.text{
+   left: 100px;
+    
+}
+
+.three{
+   
+    margin: 0;
+    border-top: 5px solid;
+    border-color: darkblue;
+    width: 50vw;
+    height: 10vh;
+}
+
+.four{
+    margin: 0;
+    padding: 0;
+    border-top: 10px solid;
+    border-color: darkblue;
+    width: 50vw;
+    height: 10vh;
+}
+
+.five{
+    margin: 0;
+    border-top: 5px solid;
+    border-color: darkblue;
+    width: 50vw;
+    height: 10vh;
+}
+
+/*
+.rec{
+
+    background-color: darkblue;
+    width: 100px;
+    height:10px ;
+}
