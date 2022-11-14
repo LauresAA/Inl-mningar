@@ -9,6 +9,26 @@ body{
     src: url(Battling\ \(2\).otf);
   }
 
+#contatiner{
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 50vw;
+    grid-template-areas: 'one two h1 ett två tre';
+    grid-gap: 2vw;
+
+   place-items: center;
+
+    
+
+    height: 70vh;
+    width: 60vw;
+   
+}
+
+
 
 .circle{
     background-color:darkblue;
@@ -22,63 +42,74 @@ body{
 }
 
 .one{
+    grid-area: right;
     left:80vw;
-    bottom: 10vh;
+    bottom: 23vh;
 }
 
 .two{
-    top: 10vh;
+    grid-area: right;
+    top: 5vh;
     left: 80vw;
 }
 
 
-main{
-   
-
-}
-
 h1{
-    
+   grid-area: center;
+
+   position: relative;
+   top: 100px;
     font-size: 5vw;
     font-family: Battling;
     text-align: center;
 }
 
-.text{
-   left: 100px;
-    
-}
 
-.three{
-   
-    margin: 0;
-    border-top: 5px solid;
-    border-color: darkblue;
-    width: 50vw;
-    height: 10vh;
-}
-
-.four{
-    margin: 0;
-    padding: 0;
+.ett{
+    grid-area: center;
     border-top: 10px solid;
     border-color: darkblue;
     width: 50vw;
-    height: 10vh;
+    height: 100%;
+
+    position: fixed;
+    
+   
 }
 
-.five{
-    margin: 0;
+.två{
+    
+    grid-area: center;
+    border-top: 10px solid;
+    border-color: darkblue;
+    width: 50vw;
+    height: 100%;
+
+    position: fixed;
+   
+}
+
+.tre{
+    grid-area: center;
+    border-top: 10px solid;
+    border-color: darkblue;
+    width: 50vw;
+    height: 100%;
+
+    position: fixed;
+  
+}
+
+
+.fyra{
+    grid-area: center;
     border-top: 5px solid;
     border-color: darkblue;
     width: 50vw;
-    height: 10vh;
+    height: 100%;
+
+    position: absolute;
+    
 }
 
-/*
-.rec{
 
-    background-color: darkblue;
-    width: 100px;
-    height:10px ;
-}
